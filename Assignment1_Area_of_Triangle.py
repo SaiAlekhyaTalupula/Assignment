@@ -1,0 +1,10 @@
+b=int(input("Enter the length of base of a Triangle:"))
+h=int(input("Enter the length of height of a Triangle:"))
+print("Area of triangle is:",((b*h)/2),"square units")
+#if sides are given
+a=int(input("Enter the side one of triangle:"))
+b=int(input("Enter the side two of triangle:"))
+c=int(input("Enter the side three of triangle:"))
+s=((a+b+c)/2)
+d=((s*(s-a)*(s-b)*(s-c))**0.5)
+print("Area of Triangle of sides {}, {}, {} is {} square units".format(a,b,c,d))
